@@ -2,12 +2,17 @@
 # name=input("name :")
 # print(name)
 
-light=input("light colour :")
-if(light == "red"):
-    print("stop")
-elif(light == "yellow"):
-    print("look")
-elif(light == "green"):
-    print("go")
-else:
-    print("light is broken")
+# light=input("light colour :")
+# if(light == "red"):
+#     print("stop")
+# elif(light == "yellow"):
+#     print("look")
+# elif(light == "green"):
+#     print("go")
+# else:
+#     print("light is broken")
+
+a = float(input("enter number1 :"))
+b = float(input("enter number2 :"))
+
+print(a>=b)
