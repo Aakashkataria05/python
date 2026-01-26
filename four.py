@@ -58,9 +58,19 @@
 
 def prnt_list(list):
     i = 0
-    while i <= len(list):
-        print(list[i])
+    while i < len(list):
+        print(list[i], end=" ")
         i += 1
 
 games = ["hokey", "cricket", "football", "tennis"]
-prnt_list(games)
+# prnt_list(games)
+
+def fac(n):
+    i = 1
+    mul = 1
+    while i <= n:
+        mul = mul*i
+        i += 1
+    print(mul)
+
+fac(8)
