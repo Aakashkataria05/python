@@ -1,5 +1,6 @@
-list = [1,4,9,16,25,36,49,64,89,100]
-i = 0
-while i < len(list):
-    print(list[i])
-    i += 1
+n = int(input("required number for first n natural number sum : "))
+# sum = 0
+# for i in range(1, n+1):
+#     sum = sum + i
+
+# print(sum)
