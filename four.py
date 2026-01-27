@@ -73,4 +73,12 @@ def fac(n):
         i += 1
     print(mul)
 
-fac(8)
+# fac(8)
+
+def rec(a):
+    if(a == 0):
+        return 0
+    return rec(a-1) + a
+
+sum = rec(4)
+print(sum)
