@@ -81,4 +81,6 @@ def rec(a):
     return rec(a-1) + a
 
 sum = rec(4)
-print(sum)
+# print(sum)
+
+class student
