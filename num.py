@@ -10,11 +10,16 @@ numpy_array = np.array([1,2,3,4,5])
 # print(filled_array.size)
 # print(filled_array.astype(str))
 
-new_arr = np.insert(numpy_array, 3, 100)
-print(new_arr)
+# new_arr = np.insert(numpy_array, 3, 100)
+# print(new_arr)
 
-arr1 = np.array([5,6,7])
-arr2 = np.array([5,4,3])
+# arr1 = np.array([5,6,7])
+# arr2 = np.array([5,4,3])
 
-result = arr1 + arr2
-print(result)
+# result = arr1 + arr2
+# print(result)
+
+sis = np.full((3,4),4)
+print(sis)
+print(np.arange(0,100,2))
+print(np.linspace(0,1000,5))
