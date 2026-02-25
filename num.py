@@ -36,3 +36,7 @@ print(myarr[myarr % 2 == 0])
 myarr3 = np.array([1,2,3,4,5,6,7,8,9])
 print(myarr3.reshape(3,3))
 print(myarr3[myarr3>3])
+
+myarr3 = np.array([1,2,3,4,5,6,7,8,9])
+print(myarr3.reshape(3,3))
+print(myarr3[myarr3>3])
